@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { NavLink } from "react-router";
 import { TodosContext } from "~/contexts/TodosContext";
+import AddTodoComponent from "../AddTodoComponent/AddTodoComponent";
 
 export default function TodoListComponent() {
   const { todos, getSessionTodos, setSessionTodos } =
@@ -11,6 +12,7 @@ export default function TodoListComponent() {
       <h2 className="main-articles-title">
         Liste des tâches
       </h2>
+      <AddTodoComponent/>
       {todos.length > 0 && (
         <table>
           <thead>

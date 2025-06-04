@@ -422,6 +422,13 @@ menu{
   padding-inline:0;
 }
 
+summary{
+  cursor:pointer;
+  font-size:var(--font-size-important);
+  font-weight:var(--font-weight-bold);
+  color:var(--color-primary);
+}
+
 strong,
 b,
 .important {
