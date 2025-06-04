@@ -1,13 +1,31 @@
+import { NavLink } from "react-router";
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Todolist React" },
+    {
+      name: "description",
+      content: "A simple todolist in React",
+    },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <section className="main-sections">
+      <h2 className="main-sections-title">Bienvenue</h2>
+      <p>
+        Vous êtes arrivés sur le Manager de Todolist, en
+        React, de Webdevoo.
+      </p>
+      <p>Nous vous invitons à découvrir l'outil :</p>
+      <NavLink
+        to="/todos"
+        className="cta-links"
+      >
+        Gérer mes tâches
+      </NavLink>
+    </section>
+  );
 }

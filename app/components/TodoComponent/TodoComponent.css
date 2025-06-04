@@ -1,0 +1,22 @@
+.main-articles{
+  gap:var(--spacing-bigger);
+}
+
+h2.main-articles-title,
+.main-articles p {
+  width: max-content;
+
+  &[contenteditable="true"] {
+    padding:0;
+    border-radius: 2rem;
+
+    &:not(:focus-visible) {
+      outline: 2px solid var(--color-primary);
+      outline-offset: var(--spacing-regular);
+    }
+
+    &:focus-visible{
+      outline-offset: var(--spacing-regular);
+    }
+  }
+}
