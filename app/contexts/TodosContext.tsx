@@ -56,7 +56,7 @@ export const TodosProvider = ({
         const savedTodos = getSessionTodos();
         if (!savedTodos) {
           // await fetch("/app/datas/todos.json")
-          await fetch("/app/datas/todos.json")
+          await fetch("/react-todolist/datas/todos.json")
             .then((result) => result.ok && result.json())
             .then(
               (datas) => (
