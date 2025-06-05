@@ -1,6 +1,6 @@
 {
   "name": "todolist-react",
-  "homepage": "https://valros76.github.io/react-todolist/client/",
+  "homepage": "https://valros76.github.io/react-todolist/",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
     "predeploy": "bun run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build/client --dotfiles"
   },
   "dependencies": {
     "@react-router/node": "^7.5.3",
