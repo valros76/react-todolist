@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "title": "Faire la vaiselle",
+    "description": "Je dois faire la vaiselle à la main avant 20h00, le 04 Juin 2025."
+  },
+  {
+    "id": "2",
+    "title": "Préparer le dîner",
+    "description": "Je dois préparer le dîner pour 20h30 ce soir."
+  },
+  {
+    "id": "3",
+    "title": "Répondre aux e-mails",
+    "description": "Je dois répondre à tous les e-mails professionnels avant 17h00."
+  },
+  {
+    "id": "4",
+    "title": "Faire les courses",
+    "description": "Je dois acheter les provisions nécessaires pour la semaine."
+  },
+  {
+    "id": "5",
+    "title": "Appeler le service client",
+    "description": "Je dois contacter le service client pour mon problème d'internet."
+  },
+  {
+    "id": "6",
+    "title": "Arroser les plantes",
+    "description": "Je dois arroser toutes les plantes de l'appartement."
+  },
+  {
+    "id": "7",
+    "title": "Planifier la réunion",
+    "description": "Je dois organiser la réunion d'équipe pour la semaine prochaine."
+  },
+  {
+    "id": "8",
+    "title": "Lire un chapitre de livre",
+    "description": "Je dois lire au moins un chapitre de mon livre avant de dormir."
+  },
+  {
+    "id": "9",
+    "title": "Faire de l'exercice",
+    "description": "Je dois faire 30 minutes d'exercice physique."
+  },
+  {
+    "id": "10",
+    "title": "Ranger le salon",
+    "description": "Je dois ranger et nettoyer le salon."
+  }
+]
