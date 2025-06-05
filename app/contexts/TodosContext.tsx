@@ -55,6 +55,7 @@ export const TodosProvider = ({
       (async () => {
         const savedTodos = getSessionTodos();
         if (!savedTodos) {
+          // await fetch("/app/datas/todos.json")
           await fetch("/app/datas/todos.json")
             .then((result) => result.ok && result.json())
             .then(

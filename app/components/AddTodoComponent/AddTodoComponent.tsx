@@ -17,7 +17,7 @@ export default function AddTodoComponent() {
     
     if(title.length > 0 && description.length > 0){
       const newTodo = {
-        id: Number(todos[todos.length - 1].id) + 1,
+        id: todos ? (Number(todos[todos.length - 1].id) + 1) : 1,
         title: title,
         description: description
       }
