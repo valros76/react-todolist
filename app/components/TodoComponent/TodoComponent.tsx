@@ -38,7 +38,8 @@ export default function TodoComponent() {
       const newTodos = todos.filter(
         (t: TodoI) => Number(t.id) !== Number(todo.id)
       );
-      deleteSessionTodos(newTodos);
+      setSessionTodos(newTodos);
+      updateTodos(newTodos);
     }
     navigate("/todos");
   };
