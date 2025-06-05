@@ -16,8 +16,12 @@ export default function AddTodoComponent() {
     const description = `${formData.get("description")}`;
     
     if(title.length > 0 && description.length > 0){
+      let newTodoId = 1;
+      if(todos.length > 0){
+        newTodoId = (Number(todos[todos.length - 1].id) + 1);
+      }
       const newTodo = {
-        id: todos ? (Number(todos[todos.length - 1].id) + 1) : 1,
+        id: newTodoId,
         title: title,
         description: description
       }
