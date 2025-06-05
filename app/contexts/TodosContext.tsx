@@ -30,7 +30,7 @@ export const TodosProvider = ({
   };
 
   const addTodo = (newTodo: TodoI) => {
-    const newTodos = [...todos, newTodo];
+    const newTodos = todos ? [...todos, newTodo] : [newTodo];
     setSessionTodos(newTodos);
     updateTodos(newTodos);
   };
