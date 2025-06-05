@@ -1,6 +1,6 @@
 {
   "name": "todolist-react",
-  "homepage": "https://valros76.github.io/react-todolist/",
+  "homepage": "https://valros76.github.io/react-todolist/client/",
   "private": true,
   "type": "module",
   "scripts": {
